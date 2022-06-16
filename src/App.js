@@ -1,6 +1,16 @@
 import React from 'react';
-import Heading from './components/Heading'
+import Heading from './components/Heading';
+import Buttons from './components/Buttons';
+import About from './components/About';
 
-export default function App() {
-    return <Heading />
+function App() {
+    return (
+        <div className='card'>
+            <Heading />
+            <Buttons />
+            <About />
+
+        </div>)
 }
+
+export default App;

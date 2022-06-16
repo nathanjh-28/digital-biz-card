@@ -3,6 +3,7 @@ import Heading from './components/Heading';
 import Buttons from './components/Buttons';
 import About from './components/About';
 import Interests from './components/Interests';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Buttons />
             <About />
             <Interests />
+            <Footer />
 
         </div>)
 }

@@ -6,7 +6,7 @@ function Heading() {
         <header>
             <img src={pic} className="profile-pic"></img>
             <h2>Lauren Smith</h2>
-            <h3>Frontend Developer</h3>
+            <h4>Frontend Developer</h4>
             <p>laurensmith.website</p>
         </header>
     )
